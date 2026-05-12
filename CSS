@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Tahoma;
+            background-color: black;
+            color: white;
+        }
+        h3 {
+            color: red;
+        }
+        .parrafo-italico {
+            font-style: italic;
+        }
+    </style>
+    <p>
+        <h3>lorem ipsum</h3>
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro cum optio natus deleniti, at tempora reiciendis id perferendis facilis impedit iure quidem temporibus dolores odit provident iusto molestiae excepturi error?
+    </p>
+    <p class="parrafo-italico">
+        este texto en cursiva solo lo hacen los mejores
+    </p>
+</body>
+</html>
