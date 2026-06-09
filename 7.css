@@ -1,0 +1,22 @@
+.menu {
+    list-style: none;
+    padding: 10px;
+    background-color: #888;
+    border: 1px solid black
+}
+
+.menu li {
+    display: inline;
+    margin-right:15px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color:blue;
+    font-size:14px,
+
+}
+.menu a:hover {
+    text-decoration: underline;
+}
