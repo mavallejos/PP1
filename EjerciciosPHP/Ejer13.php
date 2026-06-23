@@ -9,9 +9,13 @@
             private $nroCelda;
             private $valor;
 
-            function
+            function __construct($nroCelda, $valor) {
+                $this->nroCelda= $nroCelda;
+                $this->valor=$valor;
+            }
+            
         }
 
-
+    ?>
     </body>
 </html>
