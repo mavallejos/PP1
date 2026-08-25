@@ -1,0 +1,36 @@
+/* i. Estilos para el encabezado/barra superior */
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* ii. Estilos para el título de la página */
+.title {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    color: #333333;
+}
+
+/* iii. Estilos para los botones claros del header */
+.btn-ligth {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.btn-ligth:hover {
+    background-color: #e6e6e6;
+}
