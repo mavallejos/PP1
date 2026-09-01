@@ -16,6 +16,18 @@ class Producto
     #[ORM\Column(length: 30)]
     private ?string $nombre = null;
 
+    #[ORM\Column(length: 255)]
+    private ?string $Producto = null;
+
+    #[ORM\Column(length: 100, nullable: true)]
+    private ?string $descripcion = null;
+
+    #[ORM\Column(nullable: true)]
+    private ?float $precio = null;
+
+    #[ORM\Column(length: 50, nullable: true)]
+    private ?string $imagen = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -29,6 +41,54 @@ class Producto
     public function setNombre(string $nombre): static
     {
         $this->nombre = $nombre;
+
+        return $this;
+    }
+
+    public function getProducto(): ?string
+    {
+        return $this->Producto;
+    }
+
+    public function setProducto(string $Producto): static
+    {
+        $this->Producto = $Producto;
+
+        return $this;
+    }
+
+    public function getDescripcion(): ?string
+    {
+        return $this->descripcion;
+    }
+
+    public function setDescripcion(?string $descripcion): static
+    {
+        $this->descripcion = $descripcion;
+
+        return $this;
+    }
+
+    public function getPrecio(): ?float
+    {
+        return $this->precio;
+    }
+
+    public function setPrecio(?float $precio): static
+    {
+        $this->precio = $precio;
+
+        return $this;
+    }
+
+    public function getImagen(): ?string
+    {
+        return $this->imagen;
+    }
+
+    public function setImagen(?string $imagen): static
+    {
+        $this->imagen = $imagen;
 
         return $this;
     }

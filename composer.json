@@ -1,0 +1,13 @@
+{
+    "name": "mati/carrito",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "matias vallejos",
+            "email": "mati2000852@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
